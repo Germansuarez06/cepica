@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEPICA — Consultores Especializados en Procesos Industriales</title>
+  <meta name="description" content="CEPICA: Consultoría especializada en ingeniería de procesos industriales para el sector petrolero, petroquímico y energético de Venezuela. +16 años, +1.000.000 HH ejecutadas.">
+  <link rel="icon" href="fotos/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Geist:wght@300;400;500;600;700&family=Gilda+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- HEADER / NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#" class="nav__logo">
+      <img src="fotos/logo.jpg" alt="CEPICA Logo">
+    </a>
+    <nav class="nav__links">
+      <a href="#inicio" class="nav__link active">Inicio</a>
+      <a href="#nosotros" class="nav__link">Nosotros</a>
+      <a href="#servicios" class="nav__link">Servicios</a>
+      <a href="#liderazgo" class="nav__link">Liderazgo</a>
+      <a href="#contacto" class="nav__link">Contacto</a>
+    </nav>
+    <a href="#contacto" class="nav__cta">Solicitar Consulta</a>
+    <button class="nav__burger" id="burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE DRAWER -->
+<div class="drawer" id="drawer">
+  <div class="drawer__overlay"></div>
+  <div class="drawer__panel">
+    <a href="#inicio" class="drawer__link">Inicio</a>
+    <a href="#nosotros" class="drawer__link">Nosotros</a>
+    <a href="#servicios" class="drawer__link">Servicios</a>
+    <a href="#liderazgo" class="drawer__link">Liderazgo</a>
+    <a href="#contacto" class="drawer__link">Contacto</a>
+    <a href="#contacto" class="drawer__cta">Solicitar Consulta</a>
+  </div>
+</div>
+
+<!-- ========== HERO SECTION — VENETIAN BLIND SHUTTER CAROUSEL ========== -->
+<section class="hero" id="inicio">
+  <div class="hero__shutter" id="shutter"></div>
+  <div class="hero__overlay"></div>
+
+  <div class="hero__content">
+    <p class="hero__tag">Ingeniería Industrial &bull; Petróleo &bull; Gas</p>
+    <h1 class="hero__title" id="typing-headline"><span class="typing-cursor">|</span></h1>
+    <p class="hero__sub">Soluciones integrales de ingeniería, procura y construcción con más de 16 años de trayectoria ejecutando proyectos de alta complejidad para la industria petrolera y energética de Venezuela.</p>
+    <div class="hero__actions">
+      <a href="#servicios" class="btn btn--primary">Explorar Servicios</a>
+      <a href="#contacto" class="btn btn--outline">Contactar Ahora</a>
+    </div>
+  </div>
+
+  <div class="hero__indicators" id="slide-indicators"></div>
+
+  <div class="hero__metrics">
+    <div class="metric">
+      <span class="metric__number" data-target="1000000" data-format="dots">0</span>
+      <span class="metric__label">Horas-Hombre Ejecutadas</span>
+    </div>
+    <div class="metric">
+      <span class="metric__number" data-target="16">0</span>
+      <span class="metric__label">Años de Experiencia</span>
+    </div>
+    <div class="metric">
+      <span class="metric__number" data-target="6">0</span>
+      <span class="metric__label">Disciplinas Técnicas</span>
+    </div>
+    <div class="metric">
+      <span class="metric__number" data-target="150">0</span>
+      <span class="metric__label">Proyectos Completados</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TRUST STRIP ========== -->
+<section class="trust">
+  <div class="trust__inner">
+    <div class="trust__item">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      <span>Certificados SIAHO</span>
+    </div>
+    <div class="trust__item">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+      <span>Cumplimiento Normativo</span>
+    </div>
+    <div class="trust__item">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+      <span>Alta Eficiencia Operacional</span>
+    </div>
+    <div class="trust__item">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+      <span>Operaciones a Nivel Nacional</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT / QUIÉNES SOMOS ========== -->
+<section class="about" id="nosotros">
+  <div class="container">
+    <div class="section-label">Nuestra Empresa</div>
+    <div class="about__grid">
+      <div class="about__text reveal">
+        <h2 class="section-title">INGENIERÍA DE CLASE MUNDIAL PARA LA INDUSTRIA VENEZOLANA</h2>
+        <p class="about__lead">CEPICA es una empresa venezolana líder en servicios de consultoría especializada en ingeniería de procesos industriales, con más de 16 años de experiencia ejecutando proyectos de alta complejidad para la industria petrolera, petroquímica y energética del país.</p>
+        <p>Hemos acumulado más de <strong>1.000.000 de Horas-Hombre</strong> en los últimos 3 años, abarcando desde Estudios de Factibilidad e Ingeniería Conceptual hasta Ingeniería Básica, de Detalle, Procura y Construcción. Nuestro compromiso se fundamenta en la excelencia técnica, el cumplimiento normativo y la prevención integral de riesgos bajo los más altos estándares SIAHO.</p>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__num">EPC</span>
+            <span class="stat__lbl">Ingeniería, Procura &amp; Construcción</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">SIAHO</span>
+            <span class="stat__lbl">Seguridad Industrial Integral</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">QA/QC</span>
+            <span class="stat__lbl">Control de Calidad Certificado</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__media reveal">
+        <div class="about__video-wrap">
+          <video autoplay muted loop playsinline>
+            <source src="videos/13814713_3840_2160_100fps.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SERVICES / SERVICIOS ========== -->
+<section class="services" id="servicios">
+  <div class="container">
+    <div class="section-label">Nuestras Disciplinas</div>
+    <h2 class="section-title centered reveal">SOLUCIONES INTEGRALES DE INGENIERÍA</h2>
+    <p class="section-sub centered reveal">Seis disciplinas técnicas especializadas que cubren todo el espectro de necesidades en proyectos de infraestructura industrial, petrolera y energética.</p>
+    <div class="services__grid">
+
+      <div class="svc-card reveal" data-tilt>
+        <div class="svc-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        </div>
+        <h3 class="svc-card__title">Ingeniería Civil</h3>
+        <p class="svc-card__text">Diseño estructural, obras civiles e infraestructura industrial. Cimentaciones, edificaciones y estructuras metálicas para plantas de proceso.</p>
+      </div>
+
+      <div class="svc-card reveal" data-tilt>
+        <div class="svc-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <h3 class="svc-card__title">Ingeniería Eléctrica</h3>
+        <p class="svc-card__text">Sistemas de potencia, distribución eléctrica, subestaciones, iluminación industrial y sistemas de protección para instalaciones críticas.</p>
+      </div>
+
+      <div class="svc-card reveal" data-tilt>
+        <div class="svc-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4m0 14v4m-8.66-3.34l2.83-2.83m11.66-5.66l2.83-2.83M1 12h4m14 0h4m-3.34 8.66l-2.83-2.83M6.17 6.17L3.34 3.34"/></svg>
+        </div>
+        <h3 class="svc-card__title">Instrumentación y Automatización</h3>
+        <p class="svc-card__text">Sistemas de control DCS/PLC, instrumentación de campo, lazos de control, SCADA y automatización de procesos industriales críticos.</p>
+      </div>
+
+      <div class="svc-card reveal" data-tilt>
+        <div class="svc-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+        </div>
+        <h3 class="svc-card__title">Ingeniería Mecánica</h3>
+        <p class="svc-card__text">Diseño de equipos a presión, tuberías de proceso, análisis de esfuerzos, HVAC industrial y sistemas mecánicos para plantas petroleras.</p>
+      </div>
+
+      <div class="svc-card reveal" data-tilt>
+        <div class="svc-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12h4m12 0h4M6 12a6 6 0 1112 0 6 6 0 01-12 0z"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <h3 class="svc-card__title">Telecomunicaciones</h3>
+        <p class="svc-card__text">Redes de comunicación industrial, fibra óptica, sistemas de radio, telefonía IP y conectividad para instalaciones remotas y plataformas.</p>
+      </div>
+
+      <div class="svc-card reveal" data-tilt>
+        <div class="svc-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/></svg>
+        </div>
+        <h3 class="svc-card__title">Procura y Asistencia Técnica</h3>
+        <p class="svc-card__text">Gestión integral de compras técnicas, logística de materiales, asistencia técnica en campo y supervisión de construcción especializada.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== LEADERSHIP / LIDERAZGO ========== -->
+<section class="leader" id="liderazgo">
+  <div class="container">
+    <div class="leader__grid">
+      <div class="leader__photo reveal">
+        <div class="leader__img-wrap">
+          <img src="fotos/vicmar_suarez.jpg" alt="Vicmar Suárez — Presidente de CEPICA" loading="lazy">
+        </div>
+      </div>
+      <div class="leader__info reveal">
+        <div class="section-label">Liderazgo Ejecutivo</div>
+        <h2 class="section-title">VICMAR SUÁREZ</h2>
+        <p class="leader__role">Presidente — CEPICA</p>
+        <p class="leader__bio">Ingeniero con más de 16 años de trayectoria en la dirección y ejecución de proyectos de ingeniería industrial para el sector petrolero, petroquímico y energético. Bajo su liderazgo, CEPICA ha ejecutado más de 1.000.000 de Horas-Hombre en proyectos de alta complejidad, consolidando a la empresa como referente nacional en consultoría especializada.</p>
+        <p class="leader__bio">Su enfoque se centra en la excelencia operacional, la innovación en procesos EPC y el cumplimiento riguroso de los estándares SIAHO, garantizando la entrega de proyectos con los más altos niveles de calidad, seguridad y eficiencia.</p>
+        <div class="leader__credentials">
+          <div class="credential">
+            <span class="credential__val">16+</span>
+            <span class="credential__lbl">Años de Liderazgo</span>
+          </div>
+          <div class="credential">
+            <span class="credential__val">1M+</span>
+            <span class="credential__lbl">Horas-Hombre</span>
+          </div>
+          <div class="credential">
+            <span class="credential__val">6</span>
+            <span class="credential__lbl">Disciplinas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== MANIFESTO / POR QUÉ CEPICA ========== -->
+<section class="manifesto">
+  <div class="container">
+    <div class="section-label centered">¿Por Qué CEPICA?</div>
+    <h2 class="section-title centered reveal">LA DIFERENCIA ENTRE RIESGO Y GARANTÍA</h2>
+    <div class="manifesto__grid">
+      <div class="manifesto__col manifesto__col--risk reveal">
+        <h3 class="manifesto__heading">⚠ Sin CEPICA</h3>
+        <ul class="manifesto__list">
+          <li>Retrasos críticos por falta de planificación técnica especializada</li>
+          <li>Sobrecostos por errores de ingeniería y reprocesos constantes</li>
+          <li>Incumplimiento de normativas PDVSA, SIAHO y estándares internacionales</li>
+          <li>Riesgos de seguridad industrial por supervisión deficiente</li>
+          <li>Pérdida de oportunidades por incapacidad de respuesta técnica</li>
+        </ul>
+      </div>
+      <div class="manifesto__col manifesto__col--safe reveal">
+        <h3 class="manifesto__heading">✓ Con CEPICA</h3>
+        <ul class="manifesto__list">
+          <li>Ejecución precisa con cronogramas respaldados por experiencia comprobada</li>
+          <li>Optimización de costos mediante ingeniería de valor y control QA/QC</li>
+          <li>Cumplimiento total de normativas nacionales e internacionales</li>
+          <li>Prevención integral de riesgos con protocolos SIAHO certificados</li>
+          <li>Respuesta técnica inmediata con equipo multidisciplinario disponible</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== LOCATION / SEDE ========== -->
+<section class="location" id="sede">
+  <div class="container">
+    <div class="location__grid">
+      <div class="location__info reveal">
+        <div class="section-label">Sede Principal</div>
+        <h2 class="section-title">MATURÍN, ESTADO MONAGAS</h2>
+        <p>Edificio Plaza Catedral, Calle San Antonio, entre Carrera 5B y Calle Bermúdez, Sector Campo Obrero, Maturín, Estado Monagas, Venezuela.</p>
+        <div class="location__details">
+          <div class="location__detail">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>+58 414-391-4966</span>
+          </div>
+          <div class="location__detail">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            <span>info@cepica.com.ve</span>
+          </div>
+        </div>
+      </div>
+      <div class="location__map reveal">
+        <div class="map-container" id="map-container">
+          <div class="map-placeholder">
+            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Cargando mapa...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT / CONTACTO ========== -->
+<section class="contact" id="contacto">
+  <div class="container">
+    <div class="section-label centered">Contáctenos</div>
+    <h2 class="section-title centered reveal">INICIEMOS SU PROYECTO</h2>
+    <p class="section-sub centered reveal">Complete el formulario y nuestro equipo técnico se comunicará con usted en un plazo máximo de 24 horas hábiles.</p>
+    <form class="contact__form reveal" id="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Nombre Completo</label>
+          <input type="text" id="name" name="name" required placeholder="Ing. Juan Pérez">
+        </div>
+        <div class="form-group">
+          <label for="company">Empresa</label>
+          <input type="text" id="company" name="company" placeholder="PDVSA, S.A.">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Correo Electrónico</label>
+          <input type="email" id="email" name="email" required placeholder="juan.perez@empresa.com">
+        </div>
+        <div class="form-group">
+          <label for="phone">Teléfono</label>
+          <input type="tel" id="phone" name="phone" placeholder="+58 414-000-0000">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="service">Servicio de Interés</label>
+        <select id="service" name="service">
+          <option value="">Seleccione un servicio</option>
+          <option>Ingeniería Civil</option>
+          <option>Ingeniería Eléctrica</option>
+          <option>Instrumentación y Automatización</option>
+          <option>Ingeniería Mecánica</option>
+          <option>Telecomunicaciones</option>
+          <option>Procura y Asistencia Técnica</option>
+          <option>Consultoría General</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Descripción del Proyecto</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Describa brevemente su proyecto o requerimiento técnico..."></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary btn--full">Enviar Solicitud</button>
+      <div class="form-feedback" id="form-feedback"></div>
+    </form>
+  </div>
+</section>
+
+<!-- ========== FAQs — PREMIUM ACCORDION ========== -->
+<section class="faqs" id="faqs">
+  <div class="faqs__inner">
+
+    <!-- Header Row -->
+    <div class="faqs__header">
+      <div class="faqs__header-left">
+        <span class="faqs__label">FAQs</span>
+        <h2 class="faqs__title">Preguntas Frecuentes sobre nuestros Servicios de Ingeniería</h2>
+      </div>
+      <div class="faqs__header-right">
+        <p class="faqs__desc">Desde la ejecución de proyectos EPC y normativas SIAHO hasta los plazos de entrega y requerimientos técnicos, explore las respuestas a las consultas más comunes de la industria.</p>
+      </div>
+    </div>
+
+    <!-- Accordion List -->
+    <div class="faqs__list">
+
+      <!-- Item 01 -->
+      <div class="faq-item" data-faq="0">
+        <button class="faq-item__header" aria-expanded="false">
+          <div class="faq-item__left">
+            <span class="faq-item__num">01</span>
+            <span class="faq-item__question">¿Cuál es el tiempo estimado de ejecución para un proyecto de ingeniería?</span>
+          </div>
+          <div class="faq-item__toggle">
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-item__body">
+          <div class="faq-item__content">
+            <p class="faq-item__answer">La ejecución multidisciplinaria (Conceptual, Básica y de Detalle) toma de 3 a 12 meses según la complejidad del proyecto, respaldada por hitos de control estrictos y supervisión experta en campo.</p>
+            <div class="faq-item__pill">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Proyecto de ingeniería" loading="lazy">
+              <div class="faq-item__pill-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 02 (open by default) -->
+      <div class="faq-item faq-item--open" data-faq="1">
+        <button class="faq-item__header" aria-expanded="true">
+          <div class="faq-item__left">
+            <span class="faq-item__num">02</span>
+            <span class="faq-item__question">¿Cómo se gestionan los protocolos de seguridad SIAHO?</span>
+          </div>
+          <div class="faq-item__toggle">
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-item__body">
+          <div class="faq-item__content">
+            <p class="faq-item__answer">Integramos la prevención de riesgos operativos en cada fase del ciclo del proyecto, cumpliendo rigurosamente con las normativas nacionales e internacionales de seguridad industrial.</p>
+            <div class="faq-item__pill">
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop" alt="Seguridad SIAHO" loading="lazy">
+              <div class="faq-item__pill-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 03 -->
+      <div class="faq-item" data-faq="2">
+        <button class="faq-item__header" aria-expanded="false">
+          <div class="faq-item__left">
+            <span class="faq-item__num">03</span>
+            <span class="faq-item__question">¿Qué estándares normativos aplican en los diseños de ingeniería?</span>
+          </div>
+          <div class="faq-item__toggle">
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-item__body">
+          <div class="faq-item__content">
+            <p class="faq-item__answer">Especificamos normativas vigentes, estándares internacionales y requerimientos específicos de la industria petrolera y petroquímica para garantizar durabilidad y seguridad.</p>
+            <div class="faq-item__pill">
+              <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop" alt="Estándares normativos" loading="lazy">
+              <div class="faq-item__pill-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 04 -->
+      <div class="faq-item" data-faq="3">
+        <button class="faq-item__header" aria-expanded="false">
+          <div class="faq-item__left">
+            <span class="faq-item__num">04</span>
+            <span class="faq-item__question">¿Se pueden personalizar los alcances multidisciplinarios?</span>
+          </div>
+          <div class="faq-item__toggle">
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-item__body">
+          <div class="faq-item__content">
+            <p class="faq-item__answer">Sí. Nuestros ingenieros adaptan los paquetes de diseño civil, eléctrico, mecánico, instrumentación y telecomunicaciones a las necesidades operativas específicas de su planta.</p>
+            <div class="faq-item__pill">
+              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop" alt="Alcances multidisciplinarios" loading="lazy">
+              <div class="faq-item__pill-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 05 -->
+      <div class="faq-item" data-faq="4">
+        <button class="faq-item__header" aria-expanded="false">
+          <div class="faq-item__left">
+            <span class="faq-item__num">05</span>
+            <span class="faq-item__question">¿Qué garantías y soporte técnico se incluyen?</span>
+          </div>
+          <div class="faq-item__toggle">
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <div class="faq-item__body">
+          <div class="faq-item__content">
+            <p class="faq-item__answer">Cada entregable incluye garantía de calidad técnica certificada, control QA/QC riguroso y soporte de asistencia técnica durante la fase de procura y comisionamiento.</p>
+            <div class="faq-item__pill">
+              <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=800&auto=format&fit=crop" alt="Garantías y soporte" loading="lazy">
+              <div class="faq-item__pill-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="fotos/logo.jpg" alt="CEPICA" class="footer__logo">
+        <p>Consultores Especializados en Procesos Industriales, C.A.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Navegación</h4>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#liderazgo">Liderazgo</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer__col">
+        <h4>Servicios</h4>
+        <a href="#servicios">Ingeniería Civil</a>
+        <a href="#servicios">Ingeniería Eléctrica</a>
+        <a href="#servicios">Instrumentación</a>
+        <a href="#servicios">Ingeniería Mecánica</a>
+        <a href="#servicios">Telecomunicaciones</a>
+        <a href="#servicios">Procura</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <p>Maturín, Estado Monagas</p>
+        <p>+58 414-391-4966</p>
+        <p>info@cepica.com.ve</p>
+        <p class="footer__clock">Hora Local (VET): <span id="vet-clock">--:--:--</span></p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2024 CEPICA — Consultores Especializados en Procesos Industriales, C.A. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== FAB GROUP ========== -->
+<div class="fab-group">
+  <a href="https://wa.me/584143914966?text=Buen%20d%C3%ADa%2C%20estoy%20interesado%20en%20los%20servicios%20de%20CEPICA.%20%C2%BFPodr%C3%ADan%20brindarme%20informaci%C3%B3n%3F" target="_blank" rel="noopener" class="fab fab--wa" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  <button class="fab fab--bot" id="fab-bot" aria-label="Asistente Virtual">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="9" cy="16" r="1"/><circle cx="15" cy="16" r="1"/><path d="M8 11V7a4 4 0 118 0v4"/></svg>
+  </button>
+</div>
+
+<!-- ========== CHATBOT MODAL ========== -->
+<div class="chatbot" id="chatbot">
+  <div class="chatbot__header">
+    <div class="chatbot__title">
+      <span class="chatbot__dot"></span>
+      CEPICA Bot
+    </div>
+    <button class="chatbot__close" id="chatbot-close">&times;</button>
+  </div>
+  <div class="chatbot__body" id="chatbot-body">
+    <div class="chatbot__msg chatbot__msg--bot">¡Bienvenido! Soy el asistente virtual de CEPICA. ¿En qué puedo ayudarle?</div>
+    <div class="chatbot__options" id="chatbot-options">
+      <button class="chatbot__opt" data-q="servicios">¿Qué servicios ofrecen?</button>
+      <button class="chatbot__opt" data-q="experiencia">¿Cuánta experiencia tienen?</button>
+      <button class="chatbot__opt" data-q="contacto">¿Cómo los contacto?</button>
+      <button class="chatbot__opt" data-q="ubicacion">¿Dónde están ubicados?</button>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
